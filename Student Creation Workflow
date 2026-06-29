@@ -1,0 +1,24 @@
+Student Information System
+            │
+            ▼
+      SQL Eligibility Query
+            │
+            ▼
+ Attribute Validation
+            │
+            ▼
+ AD Account Exists?
+      │          │
+     Yes         No
+      │           │
+      ▼           ▼
+ Skip User   Create AD Account
+                  │
+                  ▼
+          Assign Security Groups
+                  │
+                  ▼
+        Force Password Reset
+                  │
+                  ▼
+          Export Provision Report
