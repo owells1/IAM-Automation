@@ -1,0 +1,35 @@
+Student
+    |
+    | Registers
+    |
+SQL Server
+    |
+    | Returns Eligible Students
+    |
+Provisioning Script
+    |
+    | Check AD
+    |
+Active Directory
+    |
+    | User Exists?
+    |
+    |----------------------No--------------------|
+    |                                            |
+    ▼                                            |
+Create User                                      |
+    |                                            |
+Copy Groups                                      |
+    |                                            |
+Set Password                                     |
+    |                                            |
+    ▼                                            |
+Google Cloud Directory Sync                      |
+    |                                            |
+    ▼                                            |
+Google Workspace                                 |
+    |                                            |
+Create Email                                     |
+    |                                            |
+    ▼                                            |
+Student Receives Credentials
