@@ -1,0 +1,27 @@
+This is the infrastructure.
+
+                       +---------------------------+
+                       | Student Information System|
+                       |      (SQL Database)       |
+                       +------------+--------------+
+                                    |
+                             SQL Query
+                                    |
+                                    ▼
+                     +-----------------------------+
+                     | PowerShell Provisioning Tool |
+                     +-----------------------------+
+                           |                 |
+             Active Directory          CSV Reporting
+                    |                      |
+                    ▼                      ▼
+          Student User Objects      Audit Report
+                    |
+                    ▼
+       Google Cloud Directory Sync
+                    |
+                    ▼
+          Google Workspace
+                    |
+                    ▼
+         Student Email Account
