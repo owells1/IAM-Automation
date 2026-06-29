@@ -1,0 +1,28 @@
+{
+  "SqlServer": {
+    "Server": "<SQL_SERVER_NAME>",
+    "Database": "<DATABASE_NAME>",
+    "UseIntegratedSecurity": true,
+    "TrustServerCertificate": true
+  },
+
+  "ActiveDirectory": {
+    "Domain": "example.edu",
+    "OrganizationalUnit": "OU=Students,DC=example,DC=edu",
+    "TemplateUser": "Student.Template",
+    "DefaultDescription": "Student"
+  },
+
+  "Provisioning": {
+    "AcademicYear": 2026,
+    "Term": "FA",
+    "ExcludedAttribute": "EXCLUDED_ATTRIBUTE",
+    "PasswordLength": 12,
+    "NonAlphaCharacters": 2,
+    "ForcePasswordChange": true
+  },
+
+  "Reporting": {
+    "OutputPath": "C:\\Reports\\CreatedUsers.csv"
+  }
+}
